@@ -23,6 +23,9 @@
    - 국토교통부_건축HUB_건축물대장정보 서비스
 4. KOSIS 통계자료를 쓰려면 [KOSIS 공유서비스](https://kosis.kr/openapi/)에서 **별도로** 인증키 발급 후 `.env`의 `KOSIS_SERVICE_KEY`에 붙여넣기
 5. `python fetch_data.py` 실행 — 키가 채워진 함수만 실제로 조회하고, 나머지는 이유를 출력하며 건너뜀
+6. `python run_pipeline.py` — `build_fact_region_month.py`(csv들과 BigQuery `dim_client` 조인으로
+   `fact_region_month_integrated.csv` 재생성) → `validate_fact_region_month.py`(설계서 규칙 검증)를
+   순서대로 실행한다. 검증에서 FAIL이 하나라도 나오면 종료코드 1로 알린다.
 
 ## 아직 안 된 것 (필요시 후속 작업)
 
