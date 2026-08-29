@@ -1,0 +1,10 @@
+customers                     50,000행  5컬럼
+sessions                     323,791행  5컬럼
+funnel_events                331,923행  4컬럼
+usage_monthly                455,706행  4컬럼
+experiment_assignments       257,688행  3컬럼
+support_tickets               32,724행  5컬럼
+ad_spend                       2,422행  5컬럼
+campaigns                        120행  5컬럼
+experiments                        5행  4컬럼
+합계                         1,454,379행
