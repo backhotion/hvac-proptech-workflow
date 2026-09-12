@@ -50,4 +50,6 @@
 
 ## 최근 로그
 
+- [[05_log/2026-09-12]] — 8주차 Day2~Day4, 9주차 Day1. `my-report/` 앱(퍼널 계산·
+  분해·게이트1~3·PDF·발견.md) — 산출물은 project3-wiki 바깥 `my-report/`에 있음
 - [[05_log/2026-08-29]] — Day1~Day5. Day5(유지 퍼널) 산출물은 [[../mydomain/INDEX]] 참고
